@@ -1,0 +1,38 @@
+.Bottom_item {
+  width: 55vw;
+  min-height: 30vh;
+  background: linear-gradient(180deg, #d53369, #e0c383);
+  border-radius: 20px;
+  box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  display: flex;
+  position: relative;
+}
+.Bottom_item > .morning {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.Bottom_item > .evening {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.Bottom_item > .non {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.Bottom_item > .night {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
